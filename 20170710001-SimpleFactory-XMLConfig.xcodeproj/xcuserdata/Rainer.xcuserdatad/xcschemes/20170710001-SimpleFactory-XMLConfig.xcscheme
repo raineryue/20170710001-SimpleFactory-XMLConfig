@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0830"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5120DE41F135074006B10B9"
+               BuildableName = "20170710001-SimpleFactory-XMLConfig.app"
+               BlueprintName = "20170710001-SimpleFactory-XMLConfig"
+               ReferencedContainer = "container:20170710001-SimpleFactory-XMLConfig.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5120DFD1F135074006B10B9"
+               BuildableName = "20170710001-SimpleFactory-XMLConfigTests.xctest"
+               BlueprintName = "20170710001-SimpleFactory-XMLConfigTests"
+               ReferencedContainer = "container:20170710001-SimpleFactory-XMLConfig.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5120E081F135074006B10B9"
+               BuildableName = "20170710001-SimpleFactory-XMLConfigUITests.xctest"
+               BlueprintName = "20170710001-SimpleFactory-XMLConfigUITests"
+               ReferencedContainer = "container:20170710001-SimpleFactory-XMLConfig.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5120DE41F135074006B10B9"
+            BuildableName = "20170710001-SimpleFactory-XMLConfig.app"
+            BlueprintName = "20170710001-SimpleFactory-XMLConfig"
+            ReferencedContainer = "container:20170710001-SimpleFactory-XMLConfig.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5120DE41F135074006B10B9"
+            BuildableName = "20170710001-SimpleFactory-XMLConfig.app"
+            BlueprintName = "20170710001-SimpleFactory-XMLConfig"
+            ReferencedContainer = "container:20170710001-SimpleFactory-XMLConfig.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5120DE41F135074006B10B9"
+            BuildableName = "20170710001-SimpleFactory-XMLConfig.app"
+            BlueprintName = "20170710001-SimpleFactory-XMLConfig"
+            ReferencedContainer = "container:20170710001-SimpleFactory-XMLConfig.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
