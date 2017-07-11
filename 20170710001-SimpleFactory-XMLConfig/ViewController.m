@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CategoryTableViewController.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,13 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)searchCategoryClickedAction:(id)sender {
+    CategoryTableViewController *categoryTableViewController = [[CategoryTableViewController alloc] init];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:categoryTableViewController];
+    
+    [self presentViewController:navigationController animated:YES completion:^{}];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

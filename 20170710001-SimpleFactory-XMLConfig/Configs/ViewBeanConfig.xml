@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="0001" class="FuzhuangCategoryTableViewCell" />
+    <bean id="0002" class="JiadianCategoryTableViewCell" />
+    <bean id="0003" class="MuyingCategoryTableViewCell" />
+    <bean id="0004" class="ShengxianCategoryTableViewCell" />
+    <bean id="0005" class="ShumaCategoryTableViewCell" />
+    <bean id="0006" class="XiangbaoCategoryTableViewCell" />
+</beans>

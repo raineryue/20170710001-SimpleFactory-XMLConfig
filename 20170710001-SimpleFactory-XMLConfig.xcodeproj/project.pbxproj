@@ -15,6 +15,17 @@
 		D5120DF81F135074006B10B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5120DF61F135074006B10B9 /* LaunchScreen.storyboard */; };
 		D5120E031F135074006B10B9 /* _0170710001_SimpleFactory_XMLConfigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5120E021F135074006B10B9 /* _0170710001_SimpleFactory_XMLConfigTests.m */; };
 		D5120E0E1F135074006B10B9 /* _0170710001_SimpleFactory_XMLConfigUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5120E0D1F135074006B10B9 /* _0170710001_SimpleFactory_XMLConfigUITests.m */; };
+		D5120E1D1F135122006B10B9 /* CategoryList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5120E1C1F135122006B10B9 /* CategoryList.plist */; };
+		D5120E271F13570B006B10B9 /* CategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5120E261F13570B006B10B9 /* CategoryTableViewController.m */; };
+		D5120E3C1F13672F006B10B9 /* ViewsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D5120E3B1F13672F006B10B9 /* ViewsFactory.m */; };
+		D5120E4B1F1367D0006B10B9 /* FuzhuangCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5120E401F1367D0006B10B9 /* FuzhuangCategoryTableViewCell.m */; };
+		D5120E4C1F1367D0006B10B9 /* JiadianCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5120E421F1367D0006B10B9 /* JiadianCategoryTableViewCell.m */; };
+		D5120E4D1F1367D0006B10B9 /* MuyingCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5120E441F1367D0006B10B9 /* MuyingCategoryTableViewCell.m */; };
+		D5120E4E1F1367D0006B10B9 /* ShengxianCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5120E461F1367D0006B10B9 /* ShengxianCategoryTableViewCell.m */; };
+		D5120E4F1F1367D0006B10B9 /* ShumaCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5120E481F1367D0006B10B9 /* ShumaCategoryTableViewCell.m */; };
+		D5120E501F1367D0006B10B9 /* XiangbaoCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5120E4A1F1367D0006B10B9 /* XiangbaoCategoryTableViewCell.m */; };
+		D5120E551F136FC5006B10B9 /* XmlParserUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D5120E541F136FC5006B10B9 /* XmlParserUtil.m */; };
+		D5120E581F136FEF006B10B9 /* ViewBeanConfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = D5120E571F136FEF006B10B9 /* ViewBeanConfig.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,26 @@
 		D5120E091F135074006B10B9 /* 20170710001-SimpleFactory-XMLConfigUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20170710001-SimpleFactory-XMLConfigUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5120E0D1F135074006B10B9 /* _0170710001_SimpleFactory_XMLConfigUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0170710001_SimpleFactory_XMLConfigUITests.m; sourceTree = "<group>"; };
 		D5120E0F1F135074006B10B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5120E1C1F135122006B10B9 /* CategoryList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CategoryList.plist; path = DataList/CategoryList.plist; sourceTree = "<group>"; };
+		D5120E251F13570B006B10B9 /* CategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryTableViewController.h; path = ViewControllers/CategoryTableViewController.h; sourceTree = "<group>"; };
+		D5120E261F13570B006B10B9 /* CategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryTableViewController.m; path = ViewControllers/CategoryTableViewController.m; sourceTree = "<group>"; };
+		D5120E3A1F13672F006B10B9 /* ViewsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewsFactory.h; path = ViewsFactory/ViewsFactory.h; sourceTree = "<group>"; };
+		D5120E3B1F13672F006B10B9 /* ViewsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewsFactory.m; path = ViewsFactory/ViewsFactory.m; sourceTree = "<group>"; };
+		D5120E3F1F1367D0006B10B9 /* FuzhuangCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuzhuangCategoryTableViewCell.h; sourceTree = "<group>"; };
+		D5120E401F1367D0006B10B9 /* FuzhuangCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuzhuangCategoryTableViewCell.m; sourceTree = "<group>"; };
+		D5120E411F1367D0006B10B9 /* JiadianCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiadianCategoryTableViewCell.h; sourceTree = "<group>"; };
+		D5120E421F1367D0006B10B9 /* JiadianCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiadianCategoryTableViewCell.m; sourceTree = "<group>"; };
+		D5120E431F1367D0006B10B9 /* MuyingCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuyingCategoryTableViewCell.h; sourceTree = "<group>"; };
+		D5120E441F1367D0006B10B9 /* MuyingCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuyingCategoryTableViewCell.m; sourceTree = "<group>"; };
+		D5120E451F1367D0006B10B9 /* ShengxianCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShengxianCategoryTableViewCell.h; sourceTree = "<group>"; };
+		D5120E461F1367D0006B10B9 /* ShengxianCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShengxianCategoryTableViewCell.m; sourceTree = "<group>"; };
+		D5120E471F1367D0006B10B9 /* ShumaCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShumaCategoryTableViewCell.h; sourceTree = "<group>"; };
+		D5120E481F1367D0006B10B9 /* ShumaCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShumaCategoryTableViewCell.m; sourceTree = "<group>"; };
+		D5120E491F1367D0006B10B9 /* XiangbaoCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiangbaoCategoryTableViewCell.h; sourceTree = "<group>"; };
+		D5120E4A1F1367D0006B10B9 /* XiangbaoCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiangbaoCategoryTableViewCell.m; sourceTree = "<group>"; };
+		D5120E531F136FC5006B10B9 /* XmlParserUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XmlParserUtil.h; path = Utils/XmlParserUtil.h; sourceTree = "<group>"; };
+		D5120E541F136FC5006B10B9 /* XmlParserUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XmlParserUtil.m; path = Utils/XmlParserUtil.m; sourceTree = "<group>"; };
+		D5120E571F136FEF006B10B9 /* ViewBeanConfig.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ViewBeanConfig.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +132,12 @@
 		D5120DE71F135074006B10B9 /* 20170710001-SimpleFactory-XMLConfig */ = {
 			isa = PBXGroup;
 			children = (
+				D5120E3D1F136746006B10B9 /* ViewsFactory */,
+				D5120E211F135686006B10B9 /* ViewControllers */,
+				D5120E201F13553A006B10B9 /* Utils */,
+				D5120E561F136FEF006B10B9 /* Configs */,
+				D5120E1B1F1350E1006B10B9 /* DataList */,
+				D5120E3E1F1367D0006B10B9 /* Views */,
 				D5120DEB1F135074006B10B9 /* AppDelegate.h */,
 				D5120DEC1F135074006B10B9 /* AppDelegate.m */,
 				D5120DEE1F135074006B10B9 /* ViewController.h */,
@@ -138,6 +175,68 @@
 				D5120E0F1F135074006B10B9 /* Info.plist */,
 			);
 			path = "20170710001-SimpleFactory-XMLConfigUITests";
+			sourceTree = "<group>";
+		};
+		D5120E1B1F1350E1006B10B9 /* DataList */ = {
+			isa = PBXGroup;
+			children = (
+				D5120E1C1F135122006B10B9 /* CategoryList.plist */,
+			);
+			name = DataList;
+			sourceTree = "<group>";
+		};
+		D5120E201F13553A006B10B9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D5120E531F136FC5006B10B9 /* XmlParserUtil.h */,
+				D5120E541F136FC5006B10B9 /* XmlParserUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D5120E211F135686006B10B9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5120E251F13570B006B10B9 /* CategoryTableViewController.h */,
+				D5120E261F13570B006B10B9 /* CategoryTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D5120E3D1F136746006B10B9 /* ViewsFactory */ = {
+			isa = PBXGroup;
+			children = (
+				D5120E3A1F13672F006B10B9 /* ViewsFactory.h */,
+				D5120E3B1F13672F006B10B9 /* ViewsFactory.m */,
+			);
+			name = ViewsFactory;
+			sourceTree = "<group>";
+		};
+		D5120E3E1F1367D0006B10B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5120E3F1F1367D0006B10B9 /* FuzhuangCategoryTableViewCell.h */,
+				D5120E401F1367D0006B10B9 /* FuzhuangCategoryTableViewCell.m */,
+				D5120E411F1367D0006B10B9 /* JiadianCategoryTableViewCell.h */,
+				D5120E421F1367D0006B10B9 /* JiadianCategoryTableViewCell.m */,
+				D5120E431F1367D0006B10B9 /* MuyingCategoryTableViewCell.h */,
+				D5120E441F1367D0006B10B9 /* MuyingCategoryTableViewCell.m */,
+				D5120E451F1367D0006B10B9 /* ShengxianCategoryTableViewCell.h */,
+				D5120E461F1367D0006B10B9 /* ShengxianCategoryTableViewCell.m */,
+				D5120E471F1367D0006B10B9 /* ShumaCategoryTableViewCell.h */,
+				D5120E481F1367D0006B10B9 /* ShumaCategoryTableViewCell.m */,
+				D5120E491F1367D0006B10B9 /* XiangbaoCategoryTableViewCell.h */,
+				D5120E4A1F1367D0006B10B9 /* XiangbaoCategoryTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5120E561F136FEF006B10B9 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				D5120E571F136FEF006B10B9 /* ViewBeanConfig.xml */,
+			);
+			path = Configs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +349,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5120DF81F135074006B10B9 /* LaunchScreen.storyboard in Resources */,
+				D5120E1D1F135122006B10B9 /* CategoryList.plist in Resources */,
 				D5120DF51F135074006B10B9 /* Assets.xcassets in Resources */,
+				D5120E581F136FEF006B10B9 /* ViewBeanConfig.xml in Resources */,
 				D5120DF31F135074006B10B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,8 +378,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5120DF01F135074006B10B9 /* ViewController.m in Sources */,
+				D5120E3C1F13672F006B10B9 /* ViewsFactory.m in Sources */,
+				D5120E551F136FC5006B10B9 /* XmlParserUtil.m in Sources */,
+				D5120E4F1F1367D0006B10B9 /* ShumaCategoryTableViewCell.m in Sources */,
+				D5120E4D1F1367D0006B10B9 /* MuyingCategoryTableViewCell.m in Sources */,
+				D5120E271F13570B006B10B9 /* CategoryTableViewController.m in Sources */,
 				D5120DED1F135074006B10B9 /* AppDelegate.m in Sources */,
 				D5120DEA1F135074006B10B9 /* main.m in Sources */,
+				D5120E4C1F1367D0006B10B9 /* JiadianCategoryTableViewCell.m in Sources */,
+				D5120E501F1367D0006B10B9 /* XiangbaoCategoryTableViewCell.m in Sources */,
+				D5120E4E1F1367D0006B10B9 /* ShengxianCategoryTableViewCell.m in Sources */,
+				D5120E4B1F1367D0006B10B9 /* FuzhuangCategoryTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
